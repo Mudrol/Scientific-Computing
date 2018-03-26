@@ -12,11 +12,11 @@ uimenu(c,'Label','Black','Callback',@changecolor);
     function changecolor(source,callbackdata)
         switch source.Label
             case 'Black'
-                f.Color = [0 0 0]
+                f.Color = [0 0 0];
             case 'Red'
-                f.Color = [1 0 0]
+                f.Color = [1 0 0];
             case 'Green'
-                f.Color = [0 1 0]
+                f.Color = [0 1 0];
         end
     end
 

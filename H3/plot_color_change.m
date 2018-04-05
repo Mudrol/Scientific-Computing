@@ -1,6 +1,6 @@
 function [  ] = plot_color_change( f )
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
+%plot_color_change function creates an UI which allows color changing
+%of a plot curve f.
 c = uicontextmenu;
 
 f.UIContextMenu = c;
